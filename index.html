@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="#">
+            <div class="heading">
+                <p>Welcome back! 👋</p>
+                <h4>Signup to your account</h4>
+            </div>
+
+            <label for="name">Your name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Your email:</label>
+            <input type="text" id="email" required>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" required>
+
+            <label for="cfmpass">Confirm password:</label>
+            <input type="password" id="cfmpass" required>
+
+            <button id="login-btn" type="submit">CONTINUE</button>
+
+            <div id="error-output"><p id="e-op"></p></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
